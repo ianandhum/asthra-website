@@ -1,0 +1,4 @@
+#It is recommended that error documents are set in main configuration
+ErrorDocument 404 /home/404.html
+ErrorDocument 403 /error/error403.php
+ErrorDocument 500 /error/error500.php

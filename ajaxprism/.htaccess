@@ -1,0 +1,9 @@
+RewriteOptions inherit
+RewriteEngine on
+
+#It is recommended that error documents are set in main configuration
+ErrorDocument 404 /error/error404.php
+ErrorDocument 403 /error/error403.php
+ErrorDocument 500 /error/error500.php
+Redirect 301 /ajaxprism/ http://register.mesasthra.com/
+
